@@ -14,6 +14,8 @@ Repo für die Abgabe "Docker Grundlagen inkl. Docker Compose" (Einführung in di
   |-watchtower.yml
 |-nginx
   |-nginx.yml
+  |-html
+    |-index.html
 ```
 
 ## Setup
@@ -26,6 +28,13 @@ Repo für die Abgabe "Docker Grundlagen inkl. Docker Compose" (Einführung in di
    ```
 4. Laufende Container prüfen: `docker ps`
 5. Über die jeweilige Webschnittstelle einloggen
+
+| Dienst     | Adresse                      |
+|------------|------------------------------|
+| Pi-hole    | http://localhost/admin       |
+| Portainer  | https://localhost:9443       |
+| Nginx      | http://localhost:8080        |
+| Watchtower | keine Weboberfläche (`docker logs watchtower`) |
 
 ## Pi-hole
 
