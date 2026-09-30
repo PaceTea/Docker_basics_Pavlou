@@ -1,4 +1,4 @@
-# Profil von Dimitrios Pavlou
+# Mein Steckbrief – Profil von Dimitrios Pavlou
 
 ## Name
 Dimitrios Pavlou
